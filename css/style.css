@@ -1,0 +1,101 @@
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul li{
+    list-style-type: none;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+}
+
+/* Hero Section */
+
+.hero-section .hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero-section .hero-box{
+    color: white;
+    background: black;
+    width: 200px;
+}
+
+.hero-section .hero-box #book-online a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Services Section */
+
+.services-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services-section div img{
+    height: 50px;
+    width: 50px;
+}
+
+/* Video Section */
+
+.video-section{
+    background: lightgray;
+    display: flex;
+}
+
+.video-section div{
+    width: 200px;
+    height: 200px;
+}
+
+.video-section img{
+    float: right;
+}
+
+/* Stylist Section */
+
+.stylist-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stylist-section .stylist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Promo Section */
+
+.promo-section{
+    margin: 30px 30px;
+}
+
+/* Lookbook Section */
+
+.lookbook-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: masonry;
+  }
+  
